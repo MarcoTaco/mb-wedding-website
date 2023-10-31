@@ -1,22 +1,41 @@
 .header-nav{
     width: 100%;
     height: 15vh;
+    padding-top: 50px;
 }
+
 nav{
     display: flex;
     flex-direction: row;
-
 }
+
 li{
     list-style-type: none;
+    width: 33%;
+    font-size: 22px;
 }
 
-nav.nav-item:first-child{
-    justify-content: left;
+a{
+    text-decoration: none;
+    color: #000000;
 }
-nav.nav-item:nth-child(1){
-    justify-content: center;
+
+.nav-item > a:hover{
+    font-style: italic;
+    text-decoration: underline;
 }
-nav.nav-item:last-child{
-    justify-content: right;
+
+.nav-item:first-child{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.nav-item:nth-child(2){
+    text-align: center;
+    font-size: 26px;
+}
+
+.nav-item:last-child{
+    text-align: right;
+    padding-right: 50px;
 }
