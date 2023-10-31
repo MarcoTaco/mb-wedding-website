@@ -1,0 +1,22 @@
+.header-nav{
+    width: 100%;
+    height: 15vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+li{
+    list-style-type: none;
+}
+
+nav.nav-item:first-child{
+    justify-content: left;
+}
+nav.nav-item:nth-child(1){
+    justify-content: center;
+}
+nav.nav-item:last-child{
+    justify-content: right;
+}
