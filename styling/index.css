@@ -37,17 +37,43 @@
 .events-section{
     width: 100%;
     height: 100vh;
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
 }
 
 .events-section-left{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.picture-hold{
+    background-color: red;
+    width: 150px;
+    height: 200px;
+}
+
+.events-section-left > .first-line{
+    font-size: 17px;
+}
+
+.events-section-left > .second-line{
+    font-size: 50px;
+}
+
+.events-section-right{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.pic-placement{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
 /* phone size styling */
 @media (max-width: 767px){
 
