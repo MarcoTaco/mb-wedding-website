@@ -22,7 +22,7 @@
     text-align: center;
 }
 
-.home-about-text > .first-line{
+.home-about-text > .first-line, .third-line{
     font-size: 17px;
 }
 
@@ -30,14 +30,11 @@
     font-size: 50px;
 }
 
-.home-about-text > .third-line{
-    font-size: 17px;
-}
-
 .events-section{
     width: 100%;
     height: 100vh;
     padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
 }
@@ -74,6 +71,36 @@
     height: 100px;
     background-color: red;
 }
+
+.welcome-section{
+    width: 100%;
+    height: 100vh;
+}
+
+.welcome-text{
+    text-align: center;
+}
+
+.welcome-text > .first-line, .third-line{
+    font-size: 17px;
+}
+
+.welcome-text > .second-line{
+    font-size: 50px
+}
+
+.welcome-pictures-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-pictures-section > .think-of-diff-name{
+    width: 33%;
+    text-align: center;
+}
+
 /* phone size styling */
 @media (max-width: 767px){
 
