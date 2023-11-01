@@ -11,95 +11,7 @@
     width: 100%;
     height: 100vh;
 }
-.home-about-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
 
-.home-about-text > .first-line, .third-line{
-    font-size: 17px;
-}
-
-.home-about-text > .second-line{
-    font-size: 50px;
-}
-
-.events-section{
-    width: 100%;
-    height: 100vh;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-}
-
-.events-section-left{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.picture-hold{
-    background-color: red;
-    width: 150px;
-    height: 200px;
-}
-
-.events-section-left > .first-line{
-    font-size: 17px;
-}
-
-.events-section-left > .second-line{
-    font-size: 50px;
-}
-
-.events-section-right{
-    width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.pic-placement{
-    width: 100%;
-    height: 100px;
-    background-color: red;
-}
-
-.welcome-section{
-    width: 100%;
-    height: 100vh;
-}
-
-.welcome-text{
-    text-align: center;
-}
-
-.welcome-text > .first-line, .third-line{
-    font-size: 17px;
-}
-
-.welcome-text > .second-line{
-    font-size: 50px
-}
-
-.welcome-pictures-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.welcome-pictures-section > .think-of-diff-name{
-    width: 33%;
-    text-align: center;
-}
 
 /* phone size styling */
 @media (max-width: 767px){
@@ -120,9 +32,204 @@
     .main-introduction > p:last-child{
         font-size: 40px;
     }
+    .home-about-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    
+    .home-about-text > .first-line, .third-line{
+        font-size: 17px;
+    }
+    
+    .home-about-text > .second-line{
+        font-size: 50px;
+    }
+    
+    .events-section{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .events-section-left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .picture-hold{
+        background-color: red;
+        width: 150px;
+        height: 200px;
+    }
+    
+    .events-section-left > .first-line{
+        font-size: 17px;
+    }
+    
+    .events-section-left > .second-line{
+        font-size: 50px;
+    }
+    
+    .events-section-right{
+        width: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .pic-placement{
+        width: 100%;
+        height: 100px;
+        background-color: red;
+    }
+    
+    .welcome-section{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .welcome-text{
+        text-align: center;
+    }
+    
+    .welcome-text > .first-line, .third-line{
+        font-size: 17px;
+    }
+    
+    .welcome-text > .second-line{
+        font-size: 50px
+    }
+    
+    .welcome-pictures-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .welcome-pictures-section > .think-of-diff-name{
+        width: 33%;
+        text-align: center;
+    }
+
+    .discover-btn{
+        display: unset;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 /* big screen size styling */
 @media(min-width: 1601px){
+    .main-introduction > p:first-child{
+        font-size: 55px;
+    }
 
+    .main-introduction > p:last-child{
+        font-size: 40px;
+    }
+    .home-about-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    
+    .home-about-text > .first-line, .third-line{
+        font-size: 17px;
+    }
+    
+    .home-about-text > .second-line{
+        font-size: 50px;
+    }
+    
+    .events-section{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .events-section-left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .picture-hold{
+        background-color: red;
+        width: 150px;
+        height: 200px;
+    }
+    
+    .events-section-left > .first-line{
+        font-size: 17px;
+    }
+    
+    .events-section-left > .second-line{
+        font-size: 50px;
+    }
+    
+    .events-section-right{
+        width: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .pic-placement{
+        width: 100%;
+        height: 100px;
+        background-color: red;
+    }
+    
+    .welcome-section{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .welcome-text{
+        text-align: center;
+    }
+    
+    .welcome-text > .first-line, .third-line{
+        font-size: 17px;
+    }
+    
+    .welcome-text > .second-line{
+        font-size: 50px
+    }
+    
+    .welcome-pictures-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    
+    .welcome-pictures-section > .think-of-diff-name{
+        width: 33%;
+        text-align: center;
+    }
+
+    .discover-btn-section{
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    
 }
