@@ -50,6 +50,10 @@
     .home-about-text > .second-line{
         font-size: 50px;
     }
+
+    .home-about-text > button{
+        margin-top: 100px;
+    }
     
     .events-section{
         width: 100%;
@@ -78,6 +82,10 @@
     
     .events-section-left > .second-line{
         font-size: 50px;
+    }
+
+    .event-section-left > button{
+        margin-top: 100px;
     }
     
     .events-section-right{
@@ -120,10 +128,60 @@
         text-align: center;
     }
 
-    .discover-btn{
-        display: unset;
+    .discover-btn-section{
+        width: 50%;
+        margin-top: 220px;
         margin-right: auto;
         margin-left: auto;
+        text-align: center;
+    }
+
+    .big-picture-section{
+        height: 90vh;
+        width: 100%;
+        background-color: green;
+    }
+
+    .change-name-section{
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .change-name-section > .first-line, .third-line{
+        font-size: 17px;
+    }
+    .change-name-section > .second-line{
+        font-size: 50px;
+    }
+    .change-name-section > button{
+        margin-top: 100px;
+    }
+
+    .last-section{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-picture{
+        width: 50%;
+    }
+    .right-text{
+        width: 50%;
+        text-align: center;
+    }
+    .right-text > .first-line, .third-line{
+        font-size: 17px;
+    }
+    .right-text > .second-line{
+        font-size: 50px;
+    }
+    .right-text > button{
+        margin-top: 100px;
     }
 }
 
