@@ -1,0 +1,82 @@
+.main{
+    width: 100%;
+}
+
+/* phone size styling */
+@media (max-width: 767px){
+
+}
+
+/* tablet size styling */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* laptop screen size styling */
+@media (min-width: 1024px) and (max-width: 1600px){
+    .first-line, .third-line{
+        font-size: 17px;
+    }
+
+    .second-line{
+        font-size: 50px;
+    }
+
+    .greetings-section{
+        height: 100vh;
+        background-color: darkgrey;
+    }
+    
+    .vacation-time-section{
+        padding-top: 50px;
+        height: 40vh;
+        text-align: center;
+    }
+
+    .border{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .house-section{
+        height: 80vh;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .house-pic, .house-txt{
+        width: 50%;
+    }
+    .the-girls-section{
+        height: 2800px;
+    }
+    .the-girls-text{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .girls-intro-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 360px);
+        gap: 10px;
+        justify-items: center;
+        padding-top: 100px;
+    }
+    
+    .girl-intro-card{
+        display: flex;
+        flex-direction: row;
+        width: 550px;
+        height: 310px;
+        margin-bottom: 50px;
+        background-color: red;
+    }
+}
+
+/* big monitor styling */
+@media(min-width: 1601px){
+
+}
