@@ -12,3 +12,23 @@
 	<script src="../scripts/index.js"></script>
   </body>
 </html>
+
+/* phone size styling */
+@media (max-width: 767px){
+
+}
+
+/* tablet size styling */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* laptop screen size styling */
+@media (min-width: 1024px) and (max-width: 1600px){
+
+}
+
+/* big monitor styling */
+@media(min-width: 1601px){
+
+}
