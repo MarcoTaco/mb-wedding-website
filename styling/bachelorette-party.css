@@ -12,8 +12,8 @@
 
 }
 
-/* laptop screen size styling */
-@media (min-width: 1024px) and (max-width: 1600px){
+/* laptop screen size and up styling */
+@media (min-width: 1024px){
     .first-line, .third-line{
         font-size: 17px;
     }
@@ -51,7 +51,8 @@
         width: 50%;
     }
     .the-girls-section{
-        height: 2800px;
+        height: 3400px;
+        background-color: salmon;
     }
     .the-girls-text{
         padding-top: 50px;
@@ -69,14 +70,27 @@
     .girl-intro-card{
         display: flex;
         flex-direction: row;
-        width: 550px;
+        width: 650px;
         height: 310px;
         margin-bottom: 50px;
-        background-color: red;
+        background-color: white;
     }
-}
-
-/* big monitor styling */
-@media(min-width: 1601px){
-
+    .girl-picture{
+        width: 50%;
+        margin-right: 50px;
+        background-color: turquoise;
+    }
+    .girl-txt{
+        width: 50%;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .girl-txt > p{
+        font-size: 20px;
+    }
+    .girl-txt > p:last-child{
+        font-size: 25px;
+        margin-top: -5px; 
+    }
 }
