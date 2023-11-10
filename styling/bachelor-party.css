@@ -1,0 +1,140 @@
+.main{
+    width: 100%;
+}
+
+/* phone size styling */
+@media (max-width: 767px){
+
+}
+
+/* tablet size styling */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* laptop screen size and up styling */
+@media (min-width: 1024px){
+    .first-line, .third-line{
+        font-size: 17px;
+    }
+
+    .second-line{
+        font-size: 50px;
+    }
+
+    .greetings-section{
+        height: 100vh;
+        background-color: darkgrey;
+    }
+    
+    .vacation-time-section{
+        padding-top: 50px;
+        height: 40vh;
+        text-align: center;
+    }
+
+    .border{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .house-section{
+        height: 80vh;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .house-pic, .house-txt{
+        width: 50%;
+    }
+    .the-boys-section{
+        height: 3400px;
+        background-color: salmon;
+    }
+    .the-boys-text{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .boys-intro-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 360px);
+        gap: 10px;
+        justify-items: center;
+        padding-top: 100px;
+    }
+    
+    .boy-intro-card{
+        display: flex;
+        flex-direction: row;
+        width: 650px;
+        height: 310px;
+        margin-bottom: 50px;
+        background-color: white;
+    }
+    .boy-picture{
+        width: 50%;
+        margin-right: 50px;
+        background-color: turquoise;
+    }
+    .boy-txt{
+        width: 50%;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .boy-txt > p{
+        font-size: 20px;
+    }
+    .boy-txt > p:last-child{
+        font-size: 25px;
+        margin-top: -5px; 
+    }
+    
+    .weekend-plans-section{
+        height: 70vh;
+        background-color: aquamarine;
+    }
+    
+    .weekend-plans-all-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 360px);
+        gap: 10px;
+        justify-items: center;
+        padding-top: 70px;
+    }
+
+    .weekend-plans-card{
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+        height: 340px;
+        border: black solid 1px;
+    }
+
+    .weekend-plans-text{
+        width: 55%;
+    }
+    .weekend-plans-text > p{
+        padding-left: 25px;
+    }
+    .weekend-plans-text > p:first-child{
+        font-size: 25px;
+    }
+    .weekend-plans-text > p:nth-child(2){
+        font-size: 16px;
+    }
+    .weekend-plans-text > p:last-child{
+        font-size: 14px;
+    }
+
+    .weekend-plans-pic{
+        width: 45%;
+        margin-left: 10px;
+        background-color: white;
+    }
+}
