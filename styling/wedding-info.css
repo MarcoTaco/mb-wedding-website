@@ -1,0 +1,125 @@
+.main{
+    width: 100%;
+}
+/* phone size styling */
+@media (max-width: 767px){
+
+}
+
+/* tablet size styling */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* big monitor and laptop screen size styling */
+@media(min-width: 1024px){
+    .first-line, .third-line{
+        font-size: 17px;
+    }
+
+    .second-line{
+        font-size: 50px;
+    }
+
+    .itinerary-section{
+        text-align: center;
+    }
+
+    .rehearsal-section{
+        height: 60vh;
+        padding-top: 150px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rehearsal-txt-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .rehearsal-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rehearsal-information{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding-top: 35px;
+    }
+
+    .rehearsal-info-row{
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid black;
+    }
+
+    .rehearsal-info-row > p:first-child{
+        text-align: left;
+        width: 50%;
+    }
+
+    .rehearsal-info-row > p:last-child{
+        text-align: right;
+        width: 50%;
+    }
+
+    .rehearsal-pic{
+        width: 50%;
+        border-right: 1px solid black;
+    }
+
+    .wedding-section{
+        height: 60vh;
+        padding-top: 150px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wedding-txt-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .wedding-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wedding-info{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding-top: 35px;
+    }
+
+    .wedding-txt-row{
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid black;
+    }
+
+    .wedding-txt-row > p:first-child{
+        text-align: left;
+        width: 50%;
+    }
+
+    .wedding-txt-row > p:last-child{
+        text-align: right;
+        width: 50%;
+    }
+
+    .wedding-pic{
+        width: 50%;
+        border-left: 1px solid black;
+    }
+}
