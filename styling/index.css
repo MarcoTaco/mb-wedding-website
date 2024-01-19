@@ -1,17 +1,41 @@
 .main-introduction{
     width: 100%;
-    height: 80vh;
+    height: 55vh;
     color: gray;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
 }
-.home-about{
+
+.rsvp-section{
     width: 100%;
-    height: 100vh;
+    height: 60vh;
 }
 
+.rsvp-banner{
+    white-space: nowrap;
+    animation: moveRight 25s linear infinite;
+}
+
+.animate-rsvp{
+    display: inline-block;
+    padding-right: 150px;
+}
+
+.animate-rsvp p{
+    font-size: 72px;
+    letter-spacing: 5px;
+}
+
+@keyframes moveRight{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
 
 /* phone size styling */
 @media (max-width: 767px){
