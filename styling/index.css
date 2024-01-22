@@ -8,35 +8,6 @@
     margin-top: 10%;
 }
 
-.rsvp-section{
-    width: 100%;
-    height: 60vh;
-}
-
-.rsvp-banner{
-    white-space: nowrap;
-    animation: moveRight 25s linear infinite;
-}
-
-.animate-rsvp{
-    display: inline-block;
-    padding-right: 150px;
-}
-
-.animate-rsvp p{
-    font-size: 72px;
-    letter-spacing: 5px;
-}
-
-@keyframes moveRight{
-    0%{
-        transform: translateX(100%);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
-}
-
 /* phone size styling */
 @media (max-width: 767px){
 
@@ -56,73 +27,33 @@
     .main-introduction > p:last-child{
         font-size: 40px;
     }
-    .home-about-text{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-    }
     
-    .home-about-text > .first-line, .third-line{
-        font-size: 17px;
-    }
-    
-    .home-about-text > .second-line{
-        font-size: 50px;
-    }
-
-    .home-about-text > button{
-        margin-top: 100px;
-    }
-    
-    .events-section{
+    /* .celebrate-section{
         width: 100%;
         height: 100vh;
         display: flex;
         flex-direction: row;
     }
     
-    .events-section-left{
+    .celebrate-section-left{
         width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
-    .picture-hold{
+    .celebrate-section-right{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pic-hold{
         background-color: red;
         width: 150px;
         height: 200px;
-    }
-    
-    .events-section-left > .first-line{
-        font-size: 17px;
-    }
-    
-    .events-section-left > .second-line{
-        font-size: 50px;
-    }
+    } */
 
-    .event-section-left > button{
-        margin-top: 100px;
-    }
-    
-    .events-section-right{
-        width: 50%;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-    .pic-placement{
-        width: 100%;
-        height: 100px;
-        background-color: red;
-    }
-    
     .welcome-section{
         width: 100%;
         height: 100vh;
@@ -218,6 +149,7 @@
     .main-introduction > p:last-child{
         font-size: 40px;
     }
+
     .home-about-text{
         display: flex;
         flex-direction: column;
@@ -236,47 +168,101 @@
     .home-about-text > .second-line{
         font-size: 50px;
     }
-    
-    .events-section{
+    .rsvp{
         width: 100%;
-        height: 100vh;
+        background-color: orange;
+    }
+    .rsvp-section{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+    }
+    .rsvp-left{
+        width: 50%;
+        background-color: red;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+    }
+    .rsvp-left-img{
+        width: 40%;
+        height: 400px;
+        background-color: gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rsvp-right{
+        width: 50%;
+        background-color: blue;
+    }
+    
+    .rsvp-banner{
+        white-space: nowrap;
+        animation: moveRight 25s linear infinite;
+    }
+    
+    .animate-rsvp{
+        display: inline-block;
+        padding-right: 150px;
+    }
+    
+    .animate-rsvp p{
+        font-size: 72px;
+        letter-spacing: 5px;
+    }
+    
+    @keyframes moveRight{
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+    
+    .celebrate-section{
+        width: 100%;
+        height: 90vh;
         display: flex;
         flex-direction: row;
     }
     
-    .events-section-left{
+    .celebrate-section-left{
         width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
-    .picture-hold{
-        background-color: red;
-        width: 150px;
-        height: 200px;
-    }
-    
-    .events-section-left > .first-line{
-        font-size: 17px;
-    }
-    
-    .events-section-left > .second-line{
-        font-size: 50px;
-    }
-    
-    .events-section-right{
+    .celebrate-section-right{
         width: 50%;
-        margin-top: auto;
-        margin-bottom: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .pic-placement{
-        width: 100%;
-        height: 100px;
+    .pic-hold{
         background-color: red;
+        width: 450px;
+        height: 600px;
     }
-    
+    .celebrate-section-left > p:first-child{
+        font-size: 18px;
+    }
+    .celebrate-section-left > p:nth-child(2){
+        font-size: 35px;
+    }
+    .celebrate-section-left > p:nth-child(3), .celebrate-section-left > p:nth-child(4){
+        font-size: 25px;
+    }
+    .celebrate-section-left > p:nth-child(5), .celebrate-section-left > p:last-child{
+        font-size: 20px;
+    }
+    .big-picture-section{
+        width: 100%;
+        height: 80vh;
+        background-color: gray;
+    }
     .welcome-section{
         width: 100%;
         height: 100vh;
